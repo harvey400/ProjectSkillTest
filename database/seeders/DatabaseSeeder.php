@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
     {
 
         \App\Models\User::insert([
-            'name' => 'demo1',
+            'name' => 'demo-user',
             'email' => 'demo@demo.com.au',
             'password'=>Hash::make('hello2020'),
         ]);
